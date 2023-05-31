@@ -1,0 +1,42 @@
+.reviewCardMaain{
+    /* background-color: rosybrown; */
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    gap:.05vmax;
+    width: 100vw;
+    border-bottom: 1px solid rgb(30, 27, 27);
+    margin-top: .52vmax;
+    margin-left: 3px;
+
+  
+
+    /* max-width: auto;
+    max-height: auto;
+    height: 10vh;
+    width: 40vw;
+    min-width: 10vw;
+    min-height: 10vh;
+     overflow: scroll;
+     resize: both;
+     margin:1vmax;
+     word-wrap: break-word;
+     white-space: break-spaces;
+     text-overflow: ellipsis;
+     border:1px solid black */
+}
+
+.reviewCardMaain img{
+    width: 30px;
+    height: auto;
+    aspect-ratio: auto;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    .reviewCardMaain{
+        max-width: calc(100vw - 30px);
+        margin-left: .5vmax;
+        /* margin-inline: auto; */
+    }
+}

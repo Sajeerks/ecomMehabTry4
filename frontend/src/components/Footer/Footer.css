@@ -1,0 +1,77 @@
+:root{
+  --text-colorforalll :white
+}
+
+
+footer{
+    margin-top: 1vmax;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(34, 33, 33);
+    color:var(--text-colorforalll);
+  
+}
+
+
+.leftFooter img{
+    max-width: 10vmax;
+    margin: 1vmax;
+    cursor: pointer;
+   
+}
+.leftFooter{
+    margin-left: 1vmax;
+    width: 20vw;
+    text-align: center;
+    font-size: 1.2vmax;
+}
+
+.midFooter h1{
+color: #eb4034;
+}
+.midFooter{
+    width: 60vw;
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1vmax;
+    text-align: center;
+    font-size: 1.2vmax;
+}
+
+.rightFooter{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2vmax;
+}
+
+.rightFooter > a {
+    text-decoration: none;
+    font-size: 1.3vmax;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color:var(--text-colorforalll);
+    transition: all 0.5s;
+    margin: 0.5vmax;
+  }
+
+  .rightFooter > a:hover {
+    color: #eb4034;
+  }
+
+  .rightFooter > h4 {
+    font-family: "Roboto";
+    font-size: 1.4vmax;
+    text-decoration: underline;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    
+    footer{
+      max-width: 100vw;
+    }
+  }
